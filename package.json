@@ -1,0 +1,23 @@
+{
+  "name": "autosend",
+  "version": "0.0.1",
+  "description": "Handfull utility to interact with the autosend api",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "api client",
+    "autosend",
+    "SDK",
+    "typescript"
+  ],
+  "author": "Sahil Khan",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.3"
+  }
+}
