@@ -1,6 +1,6 @@
 {
   "name": "autosend-sdk",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Handfull utility to interact with the autosend api",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
