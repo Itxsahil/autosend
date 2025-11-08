@@ -5,6 +5,10 @@
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "homepage": "https://github.com/Itxsahil/autosend#readme",
+  "repository": {
+    "url": "https://github.com/Itxsahil/autosend.git"
+  },
   "scripts": {
     "build": "tsup"
   },
