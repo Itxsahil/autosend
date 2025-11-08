@@ -1,5 +1,5 @@
 {
-  "name": "autosend",
+  "name": "autosend-sdk",
   "version": "0.0.1",
   "description": "Handfull utility to interact with the autosend api",
   "main": "./dist/index.js",

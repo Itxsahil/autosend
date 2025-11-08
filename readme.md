@@ -5,13 +5,13 @@ A TypeScript SDK for the AutoSend API - a simple and powerful email sending serv
 ## Installation
 
 ```bash
-npm install autosend
+npm install autosend-sdk
 ```
 
 ## Quick Start
 
 ```typescript
-import { AutoSendClient } from 'autosend';
+import { AutoSendClient } from 'autosend-sdk';
 
 // Initialize the client
 const client = new AutoSendClient({
@@ -34,7 +34,7 @@ console.log(result); // { emailId: '...', status: 'sent' }
 ### Initialize Client
 
 ```typescript
-import { AutoSendClient } from 'autosend';
+import { AutoSendClient } from 'autosend-sdk';
 
 const client = new AutoSendClient({
   apikey: 'your-api-key-here',
@@ -150,7 +150,7 @@ await client.removeContacts({
 All methods throw `AutoSendError` on failure:
 
 ```typescript
-import { AutoSendClient, AutoSendError } from 'autosend';
+import { AutoSendClient, AutoSendError } from 'autosend-sdk';
 
 const client = new AutoSendClient({ apikey: 'your-key' });
 
@@ -182,7 +182,7 @@ import {
   CreateContactParams,
   Contact,
   AutoSendError
-} from 'autosend';
+} from 'autosend-sdk';
 ```
 
 ## API Reference
